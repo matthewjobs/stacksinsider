@@ -1,0 +1,23 @@
+{
+  "name": "stacks-insider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stacks/blockchain-api-client": "^7.9.1",
+    "@stacks/network": "^6.13.0",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.65.1",
+    "nodemon": "^3.1.0"
+  }
+}
